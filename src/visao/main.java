@@ -53,7 +53,7 @@ public class main {
 			case 4:
 				
 				System.out.println("VOCE ESCOLHEU DESCER!!! \n");
-				usuario.subir();
+				usuario.descer();
 				System.out.println("SEU ANDAR ATUAL É: " + usuario.getAndarAtual());
 				
 				break;
