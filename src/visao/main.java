@@ -14,7 +14,6 @@ public class main {
 		
 		int opc = -1;
 		
-		
 		do {
 			
 			System.out.println("----DIGITE A FUNÇÃO DESEJADA----");
@@ -23,6 +22,8 @@ public class main {
 			System.out.println("3 - SUBIR");
 			System.out.println("4 - DESCER");
 			System.out.println("0 - FECHAR");
+			System.out.println("--------------------------------");
+			
 			opc = entrar.nextInt();
 			
 			switch(opc) {
@@ -57,14 +58,7 @@ public class main {
 				System.out.println("SEU ANDAR ATUAL É: " + usuario.getAndarAtual());
 				
 				break;
-				
 			}
-			
-			
 		}while(opc != 0);
-		
-		
-
 	}
-
 }
